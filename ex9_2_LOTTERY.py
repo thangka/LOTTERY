@@ -6,20 +6,6 @@ ra tất cả các giải từ đặc biệt -> giải 7.
 
 Lấy kết quả từ ``ketqua.net``.
 
-Dạng của câu lệnh::
-
-  ketqua.py [NUMBER1] [NUMBER2] [...]
-
-Các thư viện:
-
-- requests
-- requests_html hay beautifulsoup4 [tuỳ chọn]
-- argparse hay sys.argv
-
-Gợi ý:
-
-- ``nargs`` https://docs.python.org/2/library/argparse.html'''
-
 import requests
 import bs4
 import sys
